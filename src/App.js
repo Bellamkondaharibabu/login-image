@@ -34,7 +34,7 @@ function App() {
     <div className="containar">
       <div className='brand-logo'>
         <div className="brand-logo-img">
-          <img src='c:\Users\B HARIBABU\Downloads\Bailey and co.jpg' alt='' />
+          <img src='c:\Users\B HARIBABU\Downloads\Bailey and co.jpg' alt=''/>
         </div>
         <h2>BaileyandCo.</h2>
       </div>
