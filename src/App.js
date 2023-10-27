@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import  './bailey-logo.jpg';
 import './App.css';
 
-function App() {
+function App() { 
   const [data, setData] = useState({
     username: "",
     password: ""
@@ -21,7 +22,7 @@ function App() {
 
       )
     if (username === "Admin" && password === "hari123#") {
-      alert("LOGIN SUCCESSFULL....")
+      alert("LOGIN SUCCESSFULL CHARI....")
 
 
     }
@@ -33,9 +34,9 @@ function App() {
   return (
     <div className="containar">
       <div className='brand-logo'>
-        <div className="brand-logo-img">
-          <img src='c:\Users\B HARIBABU\Downloads\Bailey and co.jpg' alt=''/>
-        </div>
+        {/* <div className="brand-logo-img"> */}
+          <img src={"./bailey-logo.jpg"} alt='logo'/>
+        {/* </div> */}
         <h2>BaileyandCo.</h2>
       </div>
 
