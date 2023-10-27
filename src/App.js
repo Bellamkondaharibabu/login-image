@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import logo from './bailey-logo123.jpg';
 import './App.css';
 
 function App() { 
@@ -34,7 +35,7 @@ function App() {
     <div className="containar">
       <div className='brand-logo'>
         <div className="brand-logo-img">
-          <img src={"./image/bailey-logo.jpg" }alt='' height={50} width={60}style={{borderRadius: '10px'}} />
+          <img src={logo} alt='' height={50} width={60}style={{borderRadius: '10px'}} />
         </div>
         <h2>BaileyandCo.</h2>
       </div>
